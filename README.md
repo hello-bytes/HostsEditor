@@ -9,5 +9,4 @@ SreenShot
 
 ![github](http://codingsky.oss-cn-hangzhou.aliyuncs.com/github/hosteditor_mainscreen.png "hosteditor")
 
-developer by [http://www.codingsky.com](http://www.codingsky.com)
-
+developer by [http://www.shishengyi.pub](http://www.shishengyi.pub)
