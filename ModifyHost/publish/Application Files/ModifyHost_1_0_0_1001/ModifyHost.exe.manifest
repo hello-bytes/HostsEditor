@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.1001" name="ModifyHost.exe" publicKeyToken="cd86ccde63d508fc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ModifyHost" version="1.0.0.1001" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ModifyHost.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ModifyHost.exe" size="15872">
+      <assemblyIdentity name="ModifyHost" version="1.0.0.1001" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+3i2aqVbJ0ksLXRR1Nk4VRHCH2E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ModifyHost.exe.config" size="120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8ftcJLBvUoWhkXPJxPg06pDsU2M=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Gmike-PC\shishengyi" issuerKeyHash="17ed8b0edadbce024189d8d588dc8cd1cfabad61" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zbsZAwa9PFlDGq7X/Qe6sQ79Btw=</DigestValue></Reference></SignedInfo><SignatureValue>wrehzcEHHleQ52HUzeFpXUspoSu72nBniOFR5TjMGuxFubrWiyd6Lr6RA/gWP1qyE1QM3xSI45GFcHMs5bYjOz1L3GSDxbyUjHe7/nLE1/1M4cxBhHfShP+2np6j8nkfkr8ztoc8frHrGJLp6USyqcmIhwg5aoS0LWTqHOSA2tw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3SgI9YQYtriwyTSK0tbhnlqkThBrUkOm1f4xH2II/MfErMtgLCkqsYmexW0HF9Zgun/yCVCvTY7Ig8KV2tTGdhlccOugn2yqHdxq9Yf6jIY2a+1tE4gkBY+yfD9gV+bwY43K/4Q69LQnYGIXzRcwbEVNaEnrIRrtKsqleHy/7ZM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dc06fd0eb1ba07fdd7ae1a43593cbd060319bbcd" Description="" Url=""><as:assemblyIdentity version="1.0.0.1001" name="ModifyHost.exe" publicKeyToken="cd86ccde63d508fc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Gmike-PC\shishengyi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>EM4WQEIhjQfVIr6gsTqs59AGKek=</DigestValue></Reference></SignedInfo><SignatureValue>XXk+8F59erXVAg8vtoye2taYNEeboniuROu9E0ULS/5xjiyMh1kjiM4xinxvloySsoYTIhHD1/QsLWcMF4wQcxl1mBCy9dI2epMCd+DfZTDgN5XO3egxO5miL6oO731RyK3RIX/nt9z4nBMZ/x/FTGzYU9xJBt1aZvd00z/pL18=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3SgI9YQYtriwyTSK0tbhnlqkThBrUkOm1f4xH2II/MfErMtgLCkqsYmexW0HF9Zgun/yCVCvTY7Ig8KV2tTGdhlccOugn2yqHdxq9Yf6jIY2a+1tE4gkBY+yfD9gV+bwY43K/4Q69LQnYGIXzRcwbEVNaEnrIRrtKsqleHy/7ZM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQSK1cBmBcuJ5LRp/vGabkfjANBgkqhkiG9w0BAQUFADAxMS8wLQYDVQQDHiYARwBtAGkAawBlAC0AUABDAFwAcwBoAGkAcwBoAGUAbgBnAHkAaTAeFw0xMzA0MTUwOTQwNTlaFw0xNDA0MTUxNTQwNTlaMDExLzAtBgNVBAMeJgBHAG0AaQBrAGUALQBQAEMAXABzAGgAaQBzAGgAZQBuAGcAeQBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdKAj1hBi2uLDJNIrS1uGeWqROEGtSQ6bV/jEfYgj8x8Ssy2AsKSqxiZ7FbQcX1mC6f/IJUK9NjsiDwpXa1MZ2GVxw66CfbKod3Gr1h/qMhjZr7W0TiCQFj7J8P2BX5vBjjcr/hDr0tCdgYhfNFzBsRU1oSeshGu0qyqV4fL/tkwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAEA9bbJMuIaIPuOzydTXHOixmKaAZbAd40aNFuJmqPPPwPmmDXpXFFhRP+ufYXESogwZsdyo0HaeIp7lVAx0UpWc1CmxxxhHSWKIfIHApGgNnIMKTcfM1CVKoqXfqC1RTz//j6gtCwu3clf7o5w92QpzkqzIPpnA5sqIJCG1G6RR</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
